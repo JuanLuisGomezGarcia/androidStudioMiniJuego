@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gameOver_JGG"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/LetraE_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="E"
+        android:textColor="#4B0082"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/LetraEe_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="E"
+        android:textColor="#556B2F"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <TextView
+        android:id="@+id/LetraR_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="R"
+        android:textColor="#8B0000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/LetraG_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="G"
+        android:textColor="#FF1493"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/LetraA_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="A"
+        android:textColor="#7CFC00"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/LetraV_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="V"
+        android:textColor="#FFD700"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/LetraM_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="M"
+        android:textColor="#00CED1"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/LetraO_JGG"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:fontFamily="casual"
+        android:text="O"
+        android:textColor="#708090"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <Button
+        android:id="@+id/volverInicio_JGG"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="@drawable/button_selector"
+        android:onClick="volverInicio_JGG"
+        android:text="¿REPETIMOS?"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+</androidx.constraintlayout.widget.ConstraintLayout>
